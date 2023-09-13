@@ -19,5 +19,6 @@ const double degree_to_radians(double degrees)
 //  also this includes are not required hire NOTE: provably will worth to move them to the cpp in they are.
 // for this particular case those includes are required for main..
 
+#include "interval.h"  //having hire this include creates the global variable infinity and passes it to the module. 
 #include "ray.h"
 #include "vec3.h"
